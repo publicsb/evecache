@@ -1,0 +1,12 @@
+{application, eve_cache,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { eve_cache_app, []}},
+  {env, []}
+ ]}.
